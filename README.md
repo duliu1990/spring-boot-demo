@@ -15,3 +15,7 @@ http://www.devnp.com/2018/04/03/spring-boot-%E5%9B%BD%E9%99%85%E5%8C%96-spring-b
 spring-boot-exception-handler-demo / Spring Boot 异常的处理 (Exception Handler)
 
 http://www.devnp.com/2018/04/06/spring-boot-%e5%bc%82%e5%b8%b8%e7%9a%84%e5%a4%84%e7%90%86-exception-handler/
+
+spring-boot-configurationproperties-demo / Spring Boot 配置属性 (@ConfigurationProperties)
+
+http://www.devnp.com/2018/04/08/spring-boot-%E9%85%8D%E7%BD%AE%E5%B1%9E%E6%80%A7-configurationproperties/

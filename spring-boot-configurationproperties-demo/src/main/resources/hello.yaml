@@ -1,0 +1,15 @@
+
+hello:
+  yaml:
+    msg : Hello Wolrd2
+    student: 
+      name:  Du Liu
+      age: 18
+      
+    book: 
+      - author : Jack
+        name : Hello Java
+        price : 12.99
+      - author : Tome
+        name : Java Hello
+        price : 66.99
