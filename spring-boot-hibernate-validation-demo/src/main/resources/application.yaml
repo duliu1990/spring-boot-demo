@@ -1,0 +1,10 @@
+server:
+  port: 8080
+  context-path: /spring-boot-hibernate-validation-demo
+
+ 
+spring:
+    messages:
+     fallback-to-system-locale: false
+     encoding: UTF-8
+     basename: com/devnp/message/StudentMessages
