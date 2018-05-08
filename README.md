@@ -23,3 +23,6 @@ http://www.devnp.com/2018/04/08/spring-boot-%E9%85%8D%E7%BD%AE%E5%B1%9E%E6%80%A7
 spring-boot-hibernate-validation-demo / Spring Boot Validation 验证
 
 http://www.devnp.com/2018/04/09/spring-boot-validation-%e9%aa%8c%e8%af%81/
+
+spring-boot-email-demo / SPRING BOOT EMAIL 邮件发送
+http://www.devnp.com/2018/05/07/spring-boot-email-%e9%82%ae%e4%bb%b6%e5%8f%91%e9%80%81/
