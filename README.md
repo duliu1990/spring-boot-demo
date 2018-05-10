@@ -25,4 +25,10 @@ spring-boot-hibernate-validation-demo / Spring Boot Validation 验证
 http://www.devnp.com/2018/04/09/spring-boot-validation-%e9%aa%8c%e8%af%81/
 
 spring-boot-email-demo / SPRING BOOT EMAIL 邮件发送
+
 http://www.devnp.com/2018/05/07/spring-boot-email-%e9%82%ae%e4%bb%b6%e5%8f%91%e9%80%81/
+
+spring-boot-war-demo / Spring Boot jar to war
+
+ http://www.devnp.com/2018/05/10/spring-boot-jar-to-war/
+ 
