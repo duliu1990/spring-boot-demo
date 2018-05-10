@@ -14,7 +14,7 @@ spring:
     host: smtp.mxhichina.com
     port: 25
     username: duliu@devnp.com
-    password: Password!qaz2wsx
+    password: #账号密码
   messages:
     encoding: UTF-8
     basename: com/devnp/message/MailMessage
