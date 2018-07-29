@@ -19,3 +19,9 @@ http://www.devnp.com/2018/04/06/spring-boot-%e5%bc%82%e5%b8%b8%e7%9a%84%e5%a4%84
 spring-boot-configurationproperties-demo / Spring Boot 配置属性 (@ConfigurationProperties)
 
 http://www.devnp.com/2018/04/08/spring-boot-%E9%85%8D%E7%BD%AE%E5%B1%9E%E6%80%A7-configurationproperties/
+
+spring-boot-security-form-login-demo / Spring Boot + Spring Security 自定义表单登录
+
+http://www.devnp.com/2018/04/21/spring-boot-spring-security-%e8%87%aa%e5%ae%9a%e4%b9%89%e8%a1%a8%e5%8d%95%e7%99%bb%e5%bd%95/
+
+
