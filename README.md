@@ -24,4 +24,16 @@ spring-boot-security-form-login-demo / Spring Boot + Spring Security 自定义�
 
 http://www.devnp.com/2018/04/21/spring-boot-spring-security-%e8%87%aa%e5%ae%9a%e4%b9%89%e8%a1%a8%e5%8d%95%e7%99%bb%e5%bd%95/
 
+spring-boot-hibernate-validation-demo / Spring Boot Validation 验证
+
+http://www.devnp.com/2018/04/09/spring-boot-validation-%e9%aa%8c%e8%af%81/
+
+spring-boot-email-demo / SPRING BOOT EMAIL 邮件发送
+
+http://www.devnp.com/2018/05/07/spring-boot-email-%e9%82%ae%e4%bb%b6%e5%8f%91%e9%80%81/
+
+spring-boot-war-demo / Spring Boot jar to war
+
+http://www.devnp.com/2018/05/10/spring-boot-jar-to-war/
+ 
 
