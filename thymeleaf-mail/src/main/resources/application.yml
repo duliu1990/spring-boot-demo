@@ -1,0 +1,24 @@
+spring:
+   mail:
+      properties:
+         mail:
+            smtp:
+               connectiontimeout: 5000
+               timeout: 3000
+               writetimeout: 5000
+               auth: true
+               starttls:
+                  enable: true
+      efault-encoding: UTF-8 
+      protocol: smtp
+      host: smtp.mxhichina.com
+      port: 25
+      username: duliu@devnp.com
+      password: duliv900911SS
+   messages:
+      fallback-to-system-locale: false
+      encoding: UTF-8
+      basename: i18n/messages
+logging:
+   level:
+      org.thymeleaf: DEBUG

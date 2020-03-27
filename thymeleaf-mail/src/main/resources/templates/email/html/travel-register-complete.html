@@ -1,0 +1,337 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:th="http://www.thymeleaf.org"
+	xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title></title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!-- use the font -->
+<style>
+body {
+	margin: auto;
+	font-family: ArialMT;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	letter-spacing: normal;
+}
+
+body>table {
+	background-color: #fafafa;
+	padding-left: 80px;
+	padding-right: 78px;
+}
+
+.table-3 {
+	background-color: #282b3e;
+	width: 100%;
+	color: #ffffff;
+}
+
+body {
+	width: 920px;
+}
+
+.logo {
+	height: 26px;
+}
+
+.happy {
+	margin-top: 45px;
+	width: 108px;
+}
+
+.congs {
+	padding-top: 10px;
+	font-family: Arial-BoldMT;
+	font-size: 48px;
+	line-height: 58px;
+	letter-spacing: normal;
+	color: #282b3e;
+}
+
+.title {
+	padding-top: 30px;
+	line-height: 22px;
+	letter-spacing: normal;
+	color: #282b3e;
+}
+
+.info {
+	padding-top: 20px;
+}
+
+.info td {
+	line-height: 26px;
+	color: #282b3e;
+}
+
+.info span {
+	font-weight: bold;
+}
+
+.detail-list {
+	width: 100%;
+	padding-top: 29px;
+}
+
+.detail-list tr:first-child td {
+	border-top: 1px solid #ededed;
+}
+
+.detail-list td {
+	border-bottom: 1px solid #ededed;
+	padding-top: 15px;
+	padding-bottom: 14px;
+}
+
+.detail-list td.bold {
+	font-weight: bold;
+}
+
+.redeem {
+	background-color: #ec6453;
+	padding: 19px 30px;
+}
+
+.redeem span {
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 22px;
+	color: #ffffff;
+}
+
+.rewards-details {
+	font-family: Arial-BoldMT;
+	font-size: 24px;
+	line-height: 30px;
+	color: #282b3e;
+}
+
+.rewards-details-info {
+	padding-top: 15px;
+	font-family: ArialMT;
+	color: #282b3e;
+	line-height: 26px;
+}
+
+.rewards-contact {
+	font-family: ArialMT;
+	line-height: 26px;
+	color: #282b3e;
+	padding-top: 40px;
+}
+
+.rewards-contact span {
+	font-weight: bold;
+}
+
+.rewards-contact span.border-bottom {
+	border-bottom: 2px solid #00a758;
+}
+
+.line {
+	padding-top: 39px;
+	border-bottom: 1px solid #ededed;
+}
+
+.note {
+	padding-top: 30px;
+	padding-bottom: 40px;
+	font-family: ArialMT;
+	font-size: 14px;
+	line-height: 20px;
+	color: #424559;
+}
+
+.address {
+	font-size: 12px;
+	font-family: ArialMT;
+	line-height: 16px;
+	padding-left: 50px;
+}
+
+.address-first {
+	padding-top: 20px;
+}
+
+.address-last {
+	padding-bottom: 10px;
+}
+
+@media ( min-width : 1025px) {
+	body .table-2 {
+		background-color: #ffffff;
+		padding-top: 40px;
+	}
+	body .table-3 {
+		padding: 30px;
+	}
+}
+
+@media ( max-width : 375px) {
+	body>table {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.address {
+		padding-left: 20px;
+	}
+}
+
+@media ( min-width : 375px) and ( max-width : 768px) {
+	body>table {
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	.address {
+		padding-left: 20px;
+	}
+}
+</style>
+</head>
+
+<body>
+
+	<table class="table-1">
+		<tr>
+			<td><a><img src="logo.png" class="logo"
+					style="padding-top: 20px; padding-left: 20px;"></img></a></td>
+		</tr>
+		<tr>
+			<td class="content">
+				<table>
+					<tr>
+						<td><img src="happy.svg" class="happy"></img></td>
+					</tr>
+					<tr>
+						<td class="congs">Congratulations!</td>
+					</tr>
+					<tr>
+						<td class="title"><p
+								th:text="${'Dear ' + title + ' ' + fisrtName}"></p></td>
+					</tr>
+					<tr>
+						<td class="info">
+							<table>
+								<tbody>
+									<tr>
+										<td>You have successfully registered for a free 4-day
+											Travel Insurance, redeemable anytime <span
+											th:text="${'before ' + deadlineDate}"></span>
+										</td>
+									</tr>
+									<tr>
+										<td>&nbsp;</td>
+									</tr>
+									<tr>
+										<td>The Free 4-day Travel Insurance is underwritten by
+											QBE Hongkong & Shanghai Insurance Limited ("QBE"), please
+											click the following link and redeem it <span>at least
+												one working day</span> before your departure date:
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<table class="detail-list">
+								<tr>
+									<td>Name</td>
+									<td class="bold"><span th:text="${ fisrtName + lastName}"></span></td>
+								</tr>
+								<tr>
+									<td>Redemption code</td>
+									<td class="bold"><span th:text="${accessCode}"></span></td>
+								</tr>
+								<tr>
+									<td>Redemption deadline</td>
+									<td class="bold"><span th:text="${deadlineDate}"></span></td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td style="padding-top: 39px; padding-bottom: 59px;"><a
+							class="redeem"><span>Redeem now</span></a></td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<table class="table-2">
+		<tr>
+			<td class="rewards-details">Rewards details</td>
+		</tr>
+		<tr>
+			<td class="rewards-details-info">This free travel insurance
+				covers you and your family*. If you are travelling for more than
+				four days, you can simply pay the premium incurred for the
+				additional coverage during redemption. The Travel Insurance Policy
+				will be emailed to you by QBE after online redemption.</td>
+		</tr>
+		<tr>
+			<td>
+				<table class="rewards-contact">
+					<tr>
+						<td><img src="document.svg"></img></td>
+						<td style="padding-left: 20px;">Please <span
+							class="border-bottom">click here</span> for the details of the
+							above Travel Insurance Coverage.
+						</td>
+						<td><img src="phone.svg"></img></td>
+						<td style="padding-left: 20px;">For other enquiries, please
+							call Manulife customer services hotline at <span>2108 1388</span>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td class="line"></td>
+		</tr>
+		<tr>
+			<td class="note">
+				<table>
+					<tr>
+						<td>Note:</td>
+					</tr>
+					<tr>
+						<td>* The Free 4-day Travel Insurance refers to the "Value"
+							single trip travel insurance plan provided and underwritten by
+							QBE Hongkong & Shanghai Insurance Limited, which is applicable to
+							the designated customer stated in this email, one of his/her
+							adult relatives and accompanying children aged below 18.</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<table class="table-3">
+		<tr>
+			<td><img src="logo-white.svg" class="logo"></img></td>
+		</tr>
+		<tr>
+			<td class="address address-first">Manulife (International)
+				Limited (Incorporated in Bermuda with limited liability)</td>
+		</tr>
+		<tr>
+			<td class="address">22/F, Tower A, Manulife Financial Centre,
+				223-231 Wai Yip Street, Kwun Tong, Kowloon, Hong Kong</td>
+		</tr>
+		<tr>
+			<td class="address address-last">Please note that this email
+				address is used for dissemination of messages to customers only.
+				Please DO NOT reply to this email.</td>
+		</tr>
+	</table>
+</body>
+
+</html>
