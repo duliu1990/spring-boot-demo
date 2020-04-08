@@ -1,0 +1,18 @@
+test01:
+ datasource:
+  driver-class-name: com.mysql.jdbc.Driver
+  url: jdbc:mysql://127.0.0.1:3306/test01?characterEncoding=utf8
+  username: root
+  password: "!qaz2wsx"
+  
+test02:
+ datasource:
+  driver-class-name: com.mysql.jdbc.Driver
+  url: jdbc:mysql://127.0.0.1:3306/test02?characterEncoding=utf8
+  username: root
+  password: "!qaz2wsx"
+  
+management:
+  endpoint:
+    beans:
+      enabled: true
