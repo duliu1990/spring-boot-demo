@@ -12,7 +12,3 @@ test02:
   username: root
   password: "!qaz2wsx"
   
-management:
-  endpoint:
-    beans:
-      enabled: true

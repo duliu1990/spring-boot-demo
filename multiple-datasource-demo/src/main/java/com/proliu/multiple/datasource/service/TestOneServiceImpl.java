@@ -12,14 +12,12 @@ public class TestOneServiceImpl implements TestOneService {
 	@Autowired
 	private JdbcTemplate jdbcTemplateOne;
 	
-	@Autowired
-	private TestTwoService testTwoService;
 	
 	@Override
 	public void savePerson() {
 		// TODO Auto-generated method stub
-		this.jdbcTemplateOne.update("insert into Person(name) values(?)", "test02");
-		this.testTwoService.savePerson();
+		this.jdbcTemplateOne.update("insert into Person(name) values(?)", "test20");
+		this.jdbcTemplateOne.update("insert into Person(name) values(?)", "test21");
 		throw new RuntimeException("This is test error");
 	}
 
